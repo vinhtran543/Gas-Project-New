@@ -67,7 +67,7 @@ Gas Station Address: 19990 Stevens Creek Blvd S Blaney Ave
 Regular Gas Price: 2.71
 Premium Gas Price: 2.91
 MidGrade Gas Price: 1.99
-Number values at this Index: 1
+Number values at this Index: 2
 
 
 -------------------------------------------
@@ -122,12 +122,12 @@ Number values at this Index: 0
 
 -------------------------------------------
 Index 12:
-Gas Station Name: 
-Gas Station Address: 
-Regular Gas Price: 0
-Premium Gas Price: 0
-MidGrade Gas Price: 0
-Number values at this Index: 0
+Gas Station Name: Vinh
+Gas Station Address: Farway 201 Land
+Regular Gas Price: 0.99
+Premium Gas Price: 2.99
+MidGrade Gas Price: 1.5
+Number values at this Index: 1
 
 
 -------------------------------------------
@@ -322,12 +322,12 @@ Number values at this Index: 0
 
 -------------------------------------------
 Index 32:
-Gas Station Name: 
-Gas Station Address: 
-Regular Gas Price: 0
-Premium Gas Price: 0
-MidGrade Gas Price: 0
-Number values at this Index: 0
+Gas Station Name: Vinh
+Gas Station Address: Lay 1991 Avenue
+Regular Gas Price: 0.99
+Premium Gas Price: 2.99
+MidGrade Gas Price: 1.5
+Number values at this Index: 1
 
 
 -------------------------------------------
@@ -437,7 +437,7 @@ Gas Station Address: 3695 Pearl Ave Edenbury Ln
 Regular Gas Price: 2.55
 Premium Gas Price: 2.85
 MidGrade Gas Price: 1.99
-Number values at this Index: 2
+Number values at this Index: 3
 
 
 -------------------------------------------

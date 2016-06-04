@@ -26,11 +26,11 @@ void readInputFileHashTableMain(HashTable &table)
 	}
 
 	ofstream fout;
-	fout.open("outputHashTablePrint.txt");
-	if (fout.fail()) {
-		cout << "Output file opening failed.\n";
-		exit(-1);
-	}
+//	fout.open("outputHashTablePrint.txt");
+//	if (fout.fail()) {
+//		cout << "Output file opening failed.\n";
+//		exit(-1);
+//	}
 
 
 	//HashTable table;

@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1465082076 source:e:\codeblock saves\gas project new\main.cpp
+	"HashTable.h"
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465081269 e:\codeblock saves\gas project new\hashtable.h
+	<string>
+	<iostream>
+	<cstdlib>
+
+1465081184 e:\codeblock saves\gas project new\bst.h
+	<cstdlib>
+	<cstddef>
+	<string>
+	<fstream>
+	<iostream>
+	<cmath>
+	<algorithm>
+
+1465082023 source:e:\codeblock saves\gas project new\hashtable.cpp
+	"HashTable.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465081338 source:e:\codeblock saves\gas project new\readinputfilehash.cpp
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465082376 source:e:\codeblock saves\gas project new\readinputfilehashtable.cpp
+	"HashTable.h"
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465081410 source:e:\codeblock saves\gas project new\saveallbst.cpp
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465082294 source:e:\codeblock saves\gas project new\readinputfilebst.cpp
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+

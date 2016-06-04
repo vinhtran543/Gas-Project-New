@@ -1,11 +1,9 @@
 /**
 Gaseek
 * Team 7
-
 * CIS 22C
 
 * main.cpp
-
 */
 
 #include "HashTable.h"
@@ -64,7 +62,7 @@ int main()
     table.saveHashBucket(fout);
 
     //ADD BST EXAMPLE
-    gasPriceMidGradeBST.insert(4.99);
+    gasPriceMidGradeBST.insert(3.99);
 
     //SAVE BST EXAMPLE
     void SaveAllBSTMain(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);

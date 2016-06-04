@@ -125,9 +125,9 @@ void HashTable::saveHashTable(ofstream &fout)
 		exit(-1);
 	}
 
-	ofstream ffout;
-	ffout.open("outputHashTable.txt");
-	if (ffout.fail()) {
+	//ofstream fout;
+	fout.open("outputHashTable.txt");
+	if (fout.fail()) {
 		cout << "saveHashTable(): Output file opening failed.\n";
 		exit(-1);
 	}
