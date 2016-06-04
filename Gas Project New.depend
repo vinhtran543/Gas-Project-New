@@ -63,3 +63,50 @@
 	<string>
 	<cstdlib>
 
+1465083243 source:c:\users\thomas\desktop\gas-project-new\hashtable.cpp
+	"HashTable.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465083243 c:\users\thomas\desktop\gas-project-new\hashtable.h
+	<string>
+	<iostream>
+	<cstdlib>
+
+1465083243 source:c:\users\thomas\desktop\gas-project-new\readinputfilebst.cpp
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465083243 c:\users\thomas\desktop\gas-project-new\bst.h
+	<cstdlib>
+	<cstddef>
+	<string>
+	<fstream>
+	<iostream>
+	<cmath>
+	<algorithm>
+
+1465083243 source:c:\users\thomas\desktop\gas-project-new\readinputfilehashtable.cpp
+	"HashTable.h"
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465083243 source:c:\users\thomas\desktop\gas-project-new\saveallbst.cpp
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
