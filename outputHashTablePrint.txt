@@ -1,0 +1,502 @@
+Book Hash Table:
+
+-------------------------------------------
+Index 0:
+Gas Station Name: Rotten Robbie
+Gas Station Address: 4962 Almaden Expressway
+Regular Gas Price: 2.65
+Premium Gas Price: 2.89
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 1:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 2:
+Gas Station Name: Costco
+Gas Station Address: 7251 Camino Arroyo Gilman Rd
+Regular Gas Price: 2.53
+Premium Gas Price: 2.85
+MidGrade Gas Price: 1.99
+Number values at this Index: 2
+
+
+-------------------------------------------
+Index 3:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 4:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 5:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 6:
+Gas Station Name: Alliance
+Gas Station Address: 19990 Stevens Creek Blvd S Blaney Ave
+Regular Gas Price: 2.71
+Premium Gas Price: 2.91
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 7:
+Gas Station Name: Costco
+Gas Station Address: 1709 Automation Pkwy
+Regular Gas Price: 2.42
+Premium Gas Price: 2.89
+MidGrade Gas Price: 1.99
+Number values at this Index: 2
+
+
+-------------------------------------------
+Index 8:
+Gas Station Name: World
+Gas Station Address: 2695 Story Rd E Capitol Expy
+Regular Gas Price: 2.65
+Premium Gas Price: 2.85
+MidGrade Gas Price: 1.99
+Number values at this Index: 2
+
+
+-------------------------------------------
+Index 9:
+Gas Station Name: Exxon
+Gas Station Address: 3035 Winchester Blvd W Hacienda Ave
+Regular Gas Price: 2.71
+Premium Gas Price: 2.91
+MidGrade Gas Price: 1.99
+Number values at this Index: 2
+
+
+-------------------------------------------
+Index 10:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 11:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 12:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 13:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 14:
+Gas Station Name: ARCO
+Gas Station Address: 4995 Almaden Expy Cherry Ave
+Regular Gas Price: 2.57
+Premium Gas Price: 2.77
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 15:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 16:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 17:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 18:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 19:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 20:
+Gas Station Name: CityGas Station
+Gas Station Address: 10 N Main St E Carlo St
+Regular Gas Price: 2.59
+Premium Gas Price: 2.85
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 21:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 22:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 23:
+Gas Station Name: ARCO
+Gas Station Address: 18605 Monterey St Cochrane Rd
+Regular Gas Price: 2.55
+Premium Gas Price: 2.85
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 24:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 25:
+Gas Station Name: United Gas
+Gas Station Address: 304 Leavesley Rd Forest St
+Regular Gas Price: 2.65
+Premium Gas Price: 2.89
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 26:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 27:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 28:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 29:
+Gas Station Name: Costco
+Gas Station Address: 2201 Senter Rd Parrott St
+Regular Gas Price: 2.42
+Premium Gas Price: 2.77
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 30:
+Gas Station Name: Costco
+Gas Station Address: 1601 Coleman Ave W Brokaw Rd
+Regular Gas Price: 2.42
+Premium Gas Price: 2.87
+MidGrade Gas Price: 1.99
+Number values at this Index: 2
+
+
+-------------------------------------------
+Index 31:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 32:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 33:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 34:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 35:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 36:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 37:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 38:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 39:
+Gas Station Name: Safeway
+Gas Station Address: 100 Tennant Station Monterey St
+Regular Gas Price: 2.65
+Premium Gas Price: 2.95
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 40:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 41:
+Gas Station Name: Kwik Serv
+Gas Station Address: 17015 Monterey St W Dunne Ave
+Regular Gas Price: 2.51
+Premium Gas Price: 2.81
+MidGrade Gas Price: 1.99
+Number values at this Index: 2
+
+
+-------------------------------------------
+Index 42:
+Gas Station Name: Moe's Stop
+Gas Station Address: 1948 Camden Ave Bercaw Ln
+Regular Gas Price: 2.57
+Premium Gas Price: 2.83
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 43:
+Gas Station Name: Quik Stop
+Gas Station Address: 3695 Pearl Ave Edenbury Ln
+Regular Gas Price: 2.55
+Premium Gas Price: 2.85
+MidGrade Gas Price: 1.99
+Number values at this Index: 2
+
+
+-------------------------------------------
+Index 44:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 45:
+Gas Station Name: Plaza Gas
+Gas Station Address: 5920 Travel Park Cir Garlic Farm Way
+Regular Gas Price: 2.71
+Premium Gas Price: 2.91
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 46:
+Gas Station Name: World
+Gas Station Address: 16720 Monterey St San Pedro Ave
+Regular Gas Price: 2.55
+Premium Gas Price: 2.75
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
+-------------------------------------------
+Index 47:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 48:
+Gas Station Name: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
+
+
+-------------------------------------------
+Index 49:
+Gas Station Name: Shell
+Gas Station Address: 3295 Sierra Rd Piedmont Rd
+Regular Gas Price: 2.69
+Premium Gas Price: 2.89
+MidGrade Gas Price: 1.99
+Number values at this Index: 1
+
+
