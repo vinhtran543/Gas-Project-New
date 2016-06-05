@@ -166,3 +166,20 @@
 	<string>
 	<cstdlib>
 
+1465084718 source:c:\users\thomas\desktop\gas-project-new\main.cpp
+	"HashTable.h"
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465084669 source:c:\users\thomas\desktop\gas-project-new\statistics.cpp
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
