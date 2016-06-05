@@ -261,7 +261,7 @@ void BST<bstdata>::inOrderPrint(Nodeptr root)   //helper function
 	if (root != NULL)
 	{
 		inOrderPrint(root->left);
-		cout << root->data << " ";
+		cout << root->data << ", ";
 		inOrderPrint(root->right);
 	}
 }
@@ -279,7 +279,7 @@ void BST<bstdata>::SaveinOrderPrint(Nodeptr root, ofstream &fout)
     if (root != NULL)
 	{
 		SaveinOrderPrint(root->left, fout);
-		fout << root->data << " ";
+		fout << root->data << ", ";
 		SaveinOrderPrint(root->right, fout);
 	}
 
@@ -325,7 +325,10 @@ template <class bstdata>
 bool BST<bstdata>::containsValue(Nodeptr root, bstdata value)
 {
 	if (value == root->data)
-		return true;
+    {
+        cout << root->data;
+        return true;
+    }
 	else if (value < root->data)
 	{
 		if (root->left == NULL)
@@ -348,7 +351,10 @@ bool BST<bstdata>::search(bstdata value)
 
 	//check for any preconditions
 	if (value == root->data)
-		return true;
+    {
+        cout << root->data << endl;
+        return true;
+    }
 	else
 		return containsValue(root, value);
 }

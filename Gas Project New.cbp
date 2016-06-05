@@ -36,6 +36,7 @@
 		<Unit filename="HashTable.cpp" />
 		<Unit filename="HashTable.h" />
 		<Unit filename="SaveAllBST.cpp" />
+		<Unit filename="Statistics.cpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="readInputFileBST.cpp" />
 		<Unit filename="readInputFileHashTable.cpp" />

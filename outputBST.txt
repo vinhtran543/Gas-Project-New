@@ -1,11 +1,11 @@
-ARCO Alliance Calco CityGas Station Costco Exxon Golden Eagle Gas Kwik Serv Moe's Stop Plaza Gas Quik Stop Rotten Robbie Safeway Shell United Gas Valero World 
+ARCO, Alliance, Calco, CityGas Station, Costco, Exxon, Golden Eagle Gas, Kwik Serv, Moe's Stop, Plaza Gas, Quik Stop, Rotten Robbie, Safeway, Shell, United Gas, Valero, World, 
 
-10 N Main St E Carlo St 100 Tennant Station Monterey St 117 W Maude Ave N Borregas Ave 1601 Coleman Ave W Brokaw Rd 16720 Monterey St San Pedro Ave 16995 Monterey St W Dunne Ave 17015 Monterey St W Dunne Ave 1709 Automation Pkwy 18605 Monterey St Cochrane Rd 1948 Camden Ave Bercaw Ln 19990 Stevens Creek Blvd S Blaney Ave 2201 Senter Rd Parrott St 2695 Story Rd E Capitol Expy 2704 S Bascom Ave Curtner Ave 2855 Winchester Blvd W Sunnyoaks Ave 3035 Winchester Blvd W Hacienda Ave 304 Leavesley Rd Forest St 3090 Monterey Road 3147 Senter Rd Capitol Expy 3295 Sierra Rd Piedmont Rd 3695 Pearl Ave Edenbury Ln 4962 Almaden Expressway 4995 Almaden Expy Cherry Ave 5920 Travel Park Cir Garlic Farm Way 6095 Cahalan Ave Santa Teresa Blvd 7251 Camino Arroyo Gilman Rd 
+10 N Main St E Carlo St, 100 Tennant Station Monterey St, 117 W Maude Ave N Borregas Ave, 1601 Coleman Ave W Brokaw Rd, 16720 Monterey St San Pedro Ave, 16995 Monterey St W Dunne Ave, 17015 Monterey St W Dunne Ave, 1709 Automation Pkwy, 18605 Monterey St Cochrane Rd, 1948 Camden Ave Bercaw Ln, 19990 Stevens Creek Blvd S Blaney Ave, 2201 Senter Rd Parrott St, 2695 Story Rd E Capitol Expy, 2704 S Bascom Ave Curtner Ave, 2855 Winchester Blvd W Sunnyoaks Ave, 3035 Winchester Blvd W Hacienda Ave, 304 Leavesley Rd Forest St, 3090 Monterey Road, 3147 Senter Rd Capitol Expy, 3295 Sierra Rd Piedmont Rd, 3695 Pearl Ave Edenbury Ln, 4962 Almaden Expressway, 4995 Almaden Expy Cherry Ave, 5920 Travel Park Cir Garlic Farm Way, 6095 Cahalan Ave Santa Teresa Blvd, 7251 Camino Arroyo Gilman Rd, 
 
-2.42 2.51 2.53 2.55 2.57 2.59 2.63 2.65 2.69 2.71 2.76 
+2.42, 2.51, 2.53, 2.55, 2.57, 2.59, 2.63, 2.65, 2.69, 2.71, 2.76, 
 
-2.75 2.77 2.81 2.83 2.85 2.87 2.89 2.91 2.95 2.96 
+2.75, 2.77, 2.81, 2.83, 2.85, 2.87, 2.89, 2.91, 2.95, 2.96, 
 
-1.99 3.99 
+1.99, 3.99, 
 
 
