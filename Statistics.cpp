@@ -19,7 +19,7 @@ using namespace std;
 
 void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST)
 {
-    cout << "**************************Statistics**************************" << endl << endl << endl << endl;
+    cout << "**************************Statistics**************************" << endl << endl << endl;
     cout << "This is how many gas brands we have: ";
     cout << stationNameBST.getSize() << endl;
     cout << "This is how many gas stores we have: ";
@@ -44,7 +44,7 @@ void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<d
     cout << "This is the highest Premium gas price we have: ";
     cout << gasPricePremiumBST.maximum() << endl;
     cout << "This is the highest MidGrade gas price we have: ";
-    cout << gasPriceMidGradeBST.maximum() << endl << endl;
+    cout << gasPriceMidGradeBST.maximum() << endl << endl << endl;
 
     cout << "**************************Statistics**************************";
 

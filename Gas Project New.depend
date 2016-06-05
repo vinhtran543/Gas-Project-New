@@ -123,7 +123,7 @@
 	<iostream>
 	<cstdlib>
 
-1465083577 source:c:\users\vinh\desktop\gas-project-new\main.cpp
+1465086028 source:c:\users\vinh\desktop\gas-project-new\main.cpp
 	"HashTable.h"
 	"BST.h"
 	<iostream>
@@ -132,7 +132,7 @@
 	<string>
 	<cstdlib>
 
-1465081184 c:\users\vinh\desktop\gas-project-new\bst.h
+1465086003 c:\users\vinh\desktop\gas-project-new\bst.h
 	<cstdlib>
 	<cstddef>
 	<string>
@@ -176,6 +176,14 @@
 	<cstdlib>
 
 1465084669 source:c:\users\thomas\desktop\gas-project-new\statistics.cpp
+	"BST.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+
+1465086130 source:c:\users\vinh\desktop\gas-project-new\statistics.cpp
 	"BST.h"
 	<iostream>
 	<fstream>
