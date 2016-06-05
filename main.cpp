@@ -77,11 +77,9 @@ int main()
 
 
     //EXAMPLE LIST FUNCTION uses functions from Hash.cpp
-    //table.listGasPrice("1709 Automation Pkwy");
-    //table.listGasPrice("Rotten Robbie");
-
-    //void saveToOutputFile(HashTable &table);
-    //saveToOutputFile(table);
+    table.listGasPrice("1709 Automation Pkwy");
+    table.listGasPrice("Rotten Robbie");
+    table.printTable();
 
 
 
