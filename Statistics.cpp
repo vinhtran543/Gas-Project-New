@@ -52,6 +52,7 @@ void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<d
     cout << "Press 1 to return to Main Menu\n";
     cout << "Enter: ";
     cin >> selection;
+    system("CLS");//clear screeen
     return;   //return to Menu before
 
 

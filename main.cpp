@@ -19,7 +19,7 @@ using namespace std;
 int main()
 {
     /////////////////////////////////  INCLUDE THIS AT THE START OF THE PROGRAM    ///////////////////////////////////////////////////////////////////////////////////////////////////////
-     //INITIALIZE table at START OF PROGRAM with the two functions     void readInputFileHashTableMain() and  void readInputFileHashBucketMain()
+    //INITIALIZE table at START OF PROGRAM with the two functions     void readInputFileHashTableMain() and  void readInputFileHashBucketMain()
     ifstream fin;
     ofstream fout;
     HashTable table;
@@ -27,10 +27,6 @@ int main()
     void readInputFileHashTableMain(HashTable &table);
     readInputFileHashTableMain(table);                    //open input.txt and initialize the table at the start of the program saves HashTable output
     //table.printTable();
-
-    //SAVES TO OUTPUT FILE
-    table.saveHashBucket(fout);
-    //table.printBucket(4);
 
     BST<string> stationNameBST;
     BST<string> addressBST;
@@ -40,8 +36,6 @@ int main()
 
     void readInputFileBSTMain(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     readInputFileBSTMain(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
-    //gasPriceRegularBST.inOrderPrint();
-    //cout << gasPriceRegularBST.minimum();
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -51,21 +45,24 @@ int main()
     table.addItem("Bob", "Way 1991 Avenue", 0.99, 2.99, 1.50);
     table.addItem("Great", "1991 Avenue", 0.99, 2.99, 1.50);
 
+    //ADD BST EXAMPLE
+    gasPriceMidGradeBST.insert(3.99);
 
-  //stationNameBST.inOrderPrint();
+    //For ADD FUNCTION Whenever adding to bst or Hash u must ADD to both the BST and HASH and save to both BST and Hash.
+    //Example adding a new station name to table. You must also update the BST. So add the new station name to stationNameBST also.
+    //Then save
 
-
-    //SAVE HASH EXAMPLE
+    //MUST CALL THESE FUNCTION BEFORE CLOSING THE PROGRAM
+    //SAVE HASH EXAMPLE YOU MUST SAVE TO BOTH (HASH AND BST) WITH THESE COMMANDS AT THE END OF EVERY ADD OR REMOVE (Manipulating DATA)
     table.saveHashTable(fout);
     table.saveHashBucket(fout);
     table.saveToOutputFile(fout);
 
-    //ADD BST EXAMPLE
-    gasPriceMidGradeBST.insert(3.99);
 
-    //SAVE BST EXAMPLE
+    //SAVE HASH EXAMPLE YOU MUST SAVE TO BOTH (HASH AND BST) WITH THESE COMMANDS AT THE END OF EVERY ADD OR REMOVE (Manipulating DATA)
     void SaveAllBSTMain(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     SaveAllBSTMain(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
+
 
     //EXAMPLE STATISTICS FUNCTION Statistics.cpp from BST
     void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
@@ -77,11 +74,8 @@ int main()
 
 
     //EXAMPLE LIST FUNCTION uses functions from Hash.cpp
-    table.listGasPrice("1709 Automation Pkwy");
-    table.listGasPrice("Rotten Robbie");
-    table.printTable();
-
-
+    void list(HashTable &table);
+    list(table);
 
 
     return 0;

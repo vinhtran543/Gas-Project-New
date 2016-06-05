@@ -25,16 +25,19 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
 
     do
     {
-        cout << "Please select an option 1 through 3\n";
-        int selection;
+        cout << "\n\n\n****** Please select an option 1 through 3 *****\n\n\n";
         cout << "|-----------------------------------------------|\n";  //Display Menu
         cout << "|            Search MENU                        |\n";
+        cout << "|                                               |\n";
         cout << "| 1. Search by Primary Key: Gas Station Address |\n";
-        cout << "| 2. Search by Seconary Key: Gas Station Name   |\n";
+        cout << "|                                               |\n";
+        cout << "| 2. Search by Secondary Key: Gas Station Name  |\n";
+        cout << "|                                               |\n";
         cout << "| 3. Back to Main Menu                          |\n";
         cout << "|                                               |\n";
         cout << "|-----------------------------------------------|\n";
         cout << "Enter selection : ";
+        int selection;
         cin >> selection;
         cin.ignore();
         system("CLS");//clear screeen
