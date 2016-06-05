@@ -70,10 +70,14 @@ int main()
     void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     Statistics_main(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
 
+    //EXAMPLE SEARCH FUNCTION search.cpp
+    void search(BST<string> &stationNameBST, BST<string> &addressBST);
+    search(stationNameBST, addressBST);
+
 
     //EXAMPLE LIST FUNCTION uses functions from Hash.cpp
-    table.listGasPrice("1709 Automation Pkwy");
-    table.listGasPrice("Rotten Robbie");
+    //table.listGasPrice("1709 Automation Pkwy");
+    //table.listGasPrice("Rotten Robbie");
 
     return 0;
 }

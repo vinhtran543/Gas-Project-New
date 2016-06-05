@@ -275,6 +275,8 @@ int HashTable::listGasPrice(string key)
 {
 	int index = hash(key);
     bool found = false;
+    cout << "List sorted by key: " << key << endl;
+    cout << "**************** LIST Sorted by Key*******************" << endl;
 	//Nodeptr p = Table[index];
 	Nodeptr p = Table[0];
     for (int i = 0; i < TABLE_SIZE; i++)
@@ -284,8 +286,8 @@ int HashTable::listGasPrice(string key)
         {
             if (p->stationName == key || p->address == key)		 //if title was found at the index, return Gas Price and index where it was found
             {
-                cout << "Listing and sorted by key: " << key << endl;
-                cout << p->address << endl;
+                cout << "Gas Station Name: " << p->stationName << endl;
+                cout << "Address: " << p->address << endl;
                 cout << "Regular Gas Price:" << p->gasPriceRegular << endl;
                 cout << "Premium Gas Price:" << p->gasPricePremium << endl;
                 cout << "MidGrade Gas Price:" << p->gasPriceMidGrade << endl << endl;

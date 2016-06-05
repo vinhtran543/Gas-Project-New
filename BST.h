@@ -279,7 +279,7 @@ void BST<bstdata>::SaveinOrderPrint(Nodeptr root, ofstream &fout)
     if (root != NULL)
 	{
 		SaveinOrderPrint(root->left, fout);
-		fout << root->data << ", ";
+		fout << root->data << ",";
 		SaveinOrderPrint(root->right, fout);
 	}
 
@@ -326,6 +326,7 @@ bool BST<bstdata>::containsValue(Nodeptr root, bstdata value)
 {
 	if (value == root->data)
     {
+        cout << "\nFOUND: ";
         cout << root->data;
         return true;
     }
@@ -350,8 +351,10 @@ bool BST<bstdata>::search(bstdata value)
 {
 
 	//check for any preconditions
+
 	if (value == root->data)
     {
+        cout << "\nFOUND: ";
         cout << root->data << endl;
         return true;
     }
