@@ -52,10 +52,8 @@ int main()
     table.addItem("Great", "1991 Avenue", 0.99, 2.99, 1.50);
 
 
-    //SEARCH GASPRICE EXAMPLE with PRIMARY KEY(address) and SECONDARY KEY(stationName)
-    //cout << table.findGasPrice("Lay 1991 Avenue");
-    //table.findGasPrice("Costco");
-    //table.printBucket(6);
+  //stationNameBST.inOrderPrint();
+
 
     //SAVE HASH EXAMPLE
     table.saveHashTable(fout);
@@ -68,11 +66,14 @@ int main()
     void SaveAllBSTMain(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     SaveAllBSTMain(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
 
-    //Statistics from BST
+    //EXAMPLE STATISTICS FUNCTION Statistics.cpp from BST
     void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     Statistics_main(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
 
 
+    //EXAMPLE LIST FUNCTION uses functions from Hash.cpp
+    table.listGasPrice("1709 Automation Pkwy");
+    table.listGasPrice("Rotten Robbie");
 
     return 0;
 }

@@ -325,7 +325,10 @@ template <class bstdata>
 bool BST<bstdata>::containsValue(Nodeptr root, bstdata value)
 {
 	if (value == root->data)
-		return true;
+    {
+        cout << root->data;
+        return true;
+    }
 	else if (value < root->data)
 	{
 		if (root->left == NULL)
@@ -348,7 +351,10 @@ bool BST<bstdata>::search(bstdata value)
 
 	//check for any preconditions
 	if (value == root->data)
-		return true;
+    {
+        cout << root->data << endl;
+        return true;
+    }
 	else
 		return containsValue(root, value);
 }

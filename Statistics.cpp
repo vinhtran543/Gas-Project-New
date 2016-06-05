@@ -46,6 +46,6 @@ void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<d
     cout << "This is the highest MidGrade gas price we have: ";
     cout << gasPriceMidGradeBST.maximum() << endl << endl << endl;
 
-    cout << "**************************Statistics**************************";
+    cout << "**************************Statistics**************************" << endl;
 
 }

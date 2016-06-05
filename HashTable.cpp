@@ -271,7 +271,7 @@ void HashTable::saveHashBucket(ofstream &fout)
 	fout.close();   //close write file
 }
 
-int HashTable::findGasPrice(string key)
+int HashTable::listGasPrice(string key)
 {
 	int index = hash(key);
     bool found = false;
@@ -284,7 +284,7 @@ int HashTable::findGasPrice(string key)
         {
             if (p->stationName == key || p->address == key)		 //if title was found at the index, return Gas Price and index where it was found
             {
-                cout << key << endl;
+                cout << "Listing and sorted by key: " << key << endl;
                 cout << p->address << endl;
                 cout << "Regular Gas Price:" << p->gasPriceRegular << endl;
                 cout << "Premium Gas Price:" << p->gasPricePremium << endl;

@@ -50,7 +50,7 @@ public:
 
 	void saveHashBucket(ofstream &fout);   //save to output text
 
-	int findGasPrice(string key);
+	int listGasPrice(string key);
 	//Searches for an author in the table using the key
 	//returns the index under which the author is stored
 	//returns -1 if the author is not found
