@@ -58,6 +58,7 @@ int main()
     //SAVE HASH EXAMPLE
     table.saveHashTable(fout);
     table.saveHashBucket(fout);
+    table.saveToOutputFile(fout);
 
     //ADD BST EXAMPLE
     gasPriceMidGradeBST.insert(3.99);
@@ -78,6 +79,12 @@ int main()
     //EXAMPLE LIST FUNCTION uses functions from Hash.cpp
     //table.listGasPrice("1709 Automation Pkwy");
     //table.listGasPrice("Rotten Robbie");
+
+    //void saveToOutputFile(HashTable &table);
+    //saveToOutputFile(table);
+
+
+
 
     return 0;
 }

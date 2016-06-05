@@ -1,0 +1,150 @@
+Golden Eagle Gas
+1695 Monterey St W Dunne Ave
+2.51
+2.81
+2.65
+Rotten Robbie
+4962 Almaden Expressway
+2.65
+2.89
+2.76
+Costco
+7251 Camino Arroyo Gilman Rd
+2.53
+2.85
+2.68
+Quik Stop
+2704 S Bascom Ave Curtner Ave
+2.59
+2.85
+2.71
+Alliance
+19990 Stevens Creek Blvd S Blaney Ave
+2.71
+2.91
+2.81
+Great
+1991 Avenue
+0.99
+2.99
+1.5
+Costco
+1709 Automation Pkwy
+2.42
+2.89
+2.7
+World
+2695 Story Rd E Capitol Expy
+2.65
+2.85
+2.75
+Valero
+2855 Winchester Blvd W Sunnyoaks Ave
+2.76
+2.96
+2.86
+Exxon
+3035 Winchester Blvd W Hacienda Ave
+2.71
+2.91
+2.81
+Rotten Robbie
+3090 Monterey Road
+2.69
+2.89
+2.79
+Vinh
+Farway 201 Land
+0.99
+2.99
+1.5
+ARCO
+4995 Almaden Expy Cherry Ave
+2.57
+2.77
+2.62
+CityGas Station
+10 N Main St E Carlo St
+2.59
+2.85
+2.72
+ARCO
+18605 Monterey St Cochrane Rd
+2.55
+2.85
+2.75
+United Gas
+304 Leavesley Rd Forest St
+2.65
+2.89
+2.76
+Costco
+2201 Senter Rd Parrott St
+2.42
+2.77
+2.59
+Costco
+1601 Coleman Ave W Brokaw Rd
+2.42
+2.87
+2.71
+ARCO
+3147 Senter Rd Capitol Expy
+2.63
+2.83
+2.75
+Vinh
+Lay 1991 Avenue
+0.99
+2.99
+1.5
+Safeway
+100 Tennant Station Monterey St
+2.65
+2.95
+2.79
+Kwik Serv
+17015 Monterey St W Dunne Ave
+2.51
+2.81
+2.68
+World
+117 W Maude Ave N Borregas Ave
+2.69
+2.89
+2.79
+Moe's Stop
+1948 Camden Ave Bercaw Ln
+2.57
+2.83
+2.75
+Quik Stop
+3695 Pearl Ave Edenbury Ln
+2.55
+2.85
+2.71
+Calco
+6095 Cahalan Ave Santa Teresa Blvd
+2.63
+2.95
+2.81
+Bob
+Way 1991 Avenue
+0.99
+2.99
+1.5
+Plaza Gas
+5920 Travel Park Cir Garlic Farm Way
+2.71
+2.91
+2.81
+World
+16720 Monterey St San Pedro Ave
+2.55
+2.75
+2.61
+Shell
+3295 Sierra Rd Piedmont Rd
+2.69
+2.89
+2.79

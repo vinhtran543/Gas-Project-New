@@ -305,3 +305,48 @@ int HashTable::listGasPrice(string key)
 	cout << "Sorry, but " << key << " was not found in the Hash Table.\n";
 	return -1;
 }
+
+void HashTable::saveToOutputFile(ofstream &fout)
+{
+   ifstream fin;
+	fin.open("input.txt", ios_base::app);       //opens file and does not overwrite it
+	if (fin.fail()) {
+		cout << "Input file opening failed.\n";
+		exit(-1);
+	}
+
+	//ofstream fout;
+	fout.open("output.txt");
+	if (fout.fail()) {
+		cout << "saveHashBucket(): Output file opening failed.\n";
+		exit(-1);
+	}
+    for(int i = 0; i < TABLE_SIZE; i++)
+    {
+             Nodeptr p = Table[i];
+
+        if (p->address == "empty")
+        {
+            fout << "Index = " << i << " is empty\n";
+        }
+        else
+        {
+            while (p != NULL)
+            {
+                if(!(p->stationName == ""))
+                    fout << p->stationName << endl;
+                if(!(p->address == ""))
+                    fout << p->address << endl;
+                if(!(p->gasPriceRegular == NULL))
+                    fout << p->gasPriceRegular<< endl;
+                if(!(p->gasPricePremium == NULL))
+                    fout << p->gasPricePremium << endl;
+                if(!(p->gasPriceMidGrade == NULL))
+                    fout << p->gasPriceMidGrade << endl;
+                p = p->next;
+            }
+        }
+    }
+    fin.close();    //close read file
+	fout.close();   //close write file
+}

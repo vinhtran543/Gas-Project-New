@@ -1,7 +1,7 @@
 /**
 Gaseek
 * Team 7
-Dat Pham
+Min, Dat Pham, Vinh Tran
 
 * CIS 22C
 
