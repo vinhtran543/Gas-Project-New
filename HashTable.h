@@ -55,7 +55,7 @@ public:
 	//returns the index under which the author is stored
 	//returns -1 if the author is not found
 
-	void saveToOutputFile(ofstream &fout);
+	void saveToOutputFile(ofstream &fout);  //allows user to save to file name they can name
 
 
 

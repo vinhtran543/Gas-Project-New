@@ -316,10 +316,27 @@ void HashTable::saveToOutputFile(ofstream &fout)
 		exit(-1);
 	}
 
+
+    cout << "|-----------------------------------------------------------|\n";  //Display Menu
+    cout << "|            SAVE MENU                                      |\n";
+    cout << "|                                                           |\n";
+    cout << "|   Input file name to save data.                           |\n";
+    cout << "|   You could append .txt to the file name you are typing   |\n";
+    cout << "|   to make it a .txt file type                             |\n";
+    cout << "|                                                           |\n";
+    cout << "|-----------------------------------------------------------|\n";
+
+    cout << "Enter file name you want to save to: ";
+    string saveName;
+    getline(cin, saveName);
+
+
 	//ofstream fout;
-	fout.open("output.txt");
+	//fout.open("output.txt");
+	fout.open(saveName.c_str());
+
 	if (fout.fail()) {
-		cout << "saveHashBucket(): Output file opening failed.\n";
+		cout << "\nsaveToOutputFile(): Output file opening failed.\n";
 		exit(-1);
 	}
     for(int i = 0; i < TABLE_SIZE; i++)
@@ -328,7 +345,7 @@ void HashTable::saveToOutputFile(ofstream &fout)
 
         if (p->address == "empty")
         {
-            fout << "Index = " << i << " is empty\n";
+            //fout << "Index = " << i << " is empty\n";
         }
         else
         {
@@ -348,6 +365,7 @@ void HashTable::saveToOutputFile(ofstream &fout)
             }
         }
     }
+    cout << "\n\nSaved data to " << saveName << " sucessful!!!\n\n";
     fin.close();    //close read file
 	fout.close();   //close write file
 }

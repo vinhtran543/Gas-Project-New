@@ -56,7 +56,6 @@ int main()
     //SAVE HASH EXAMPLE YOU MUST SAVE TO BOTH (HASH AND BST) WITH THESE COMMANDS AT THE END OF EVERY ADD OR REMOVE (Manipulating DATA)
     table.saveHashTable(fout);
     table.saveHashBucket(fout);
-    table.saveToOutputFile(fout);
 
 
     //SAVE HASH EXAMPLE YOU MUST SAVE TO BOTH (HASH AND BST) WITH THESE COMMANDS AT THE END OF EVERY ADD OR REMOVE (Manipulating DATA)
@@ -76,6 +75,10 @@ int main()
     //EXAMPLE LIST FUNCTION uses functions from Hash.cpp
     void list(HashTable &table);
     list(table);
+
+    //MENU OPTION WRITE DATA TO FILE FUNCTION
+    void writeDataToFile(HashTable &table, BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
+    writeDataToFile(table, stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
 
 
     return 0;
