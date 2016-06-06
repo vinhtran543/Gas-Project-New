@@ -67,16 +67,21 @@ int main()
     void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     Statistics_main(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
 
-    //EXAMPLE SEARCH FUNCTION search.cpp
+
+
+
+    //FUNCTIONS BELOW DO NOT NEED MENU OPTION IMPLEMENTED, ITS ALREADY INCLUDED
+    //JUST CALL THESE FUNCTIONS
+
+    //SEARCH FUNCTION WITH MENU OPTION INCLUDED search.cpp
     void search(BST<string> &stationNameBST, BST<string> &addressBST);
     search(stationNameBST, addressBST);
 
-
-    //EXAMPLE LIST FUNCTION uses functions from Hash.cpp
+    //LIST FUNCTION WITH MENU OPTION INCLUDED uses functions from Hash.cpp
     void list(HashTable &table);
     list(table);
 
-    //MENU OPTION WRITE DATA TO FILE FUNCTION
+    //WRITE DATA TO FILE WITH MENU OPTION INCLUDED
     void writeDataToFile(HashTable &table, BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     writeDataToFile(table, stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
 
