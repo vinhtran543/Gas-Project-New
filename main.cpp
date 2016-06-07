@@ -1,10 +1,10 @@
-/**
+/*
 Gaseek
 * Team 7
 * CIS 22C
 
 * main.cpp
-*/
+
 
 #include "HashTable.h"
 #include "BST.h"
@@ -86,4 +86,139 @@ int main()
 
     return 0;
 }
+*/
+
+/**
+Gaseek
+* Team 7
+
+* CIS 22C
+
+* ProjectTest.cpp
+
+*/
+
+#include "BST.h"
+#include "HashTable.h"
+#include <iostream>
+#include <cmath>
+#include <fstream>
+#include <sstream>
+#include <cstdlib>
+#include <iomanip>
+#include <string>
+using namespace std;
+
+int mainMenu()
+{
+    int choice;
+    cout << "    Welcome to Gaseek\n\n";
+    cout << "\t Menu\n";
+    cout << "--------------------------" << endl;
+    cout << "1. Input Data" << endl;
+    cout << "2. Delete Data" << endl;
+    cout << "3. Search Data" << endl;
+    cout << "4. List Data" << endl;
+    cout << "5. Write Data to File" << endl;
+    cout << "6. Display Statistics" << endl;
+    cout << "7. Exit\n" << endl;
+    cout << "--------------------------" << endl;
+    cout << "Please enter a choice: ";
+    cin >> choice;
+    if(choice != 1 && choice != 2 && choice != 3 && choice !=4 && choice != 5 && choice != 6){
+        cout << "Invalid input, please try again: ";
+        int choiceRe;
+        cin >> choiceRe;
+    }
+    cout << "\n";
+    return choice;
+}
+
+void inputDataMenu()
+{
+    void add(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST, HashTable &table);
+    add(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST, table);
+    mainMenu();
+}
+
+void deleteDataMenu()
+{
+    void remove(BST<string> &addressBST, HashTable &table);
+    mainMenu();
+}
+
+void searchMenu()
+{
+    void search(BST<string> &stationNameBST, BST<string> &addressBST);
+    search(stationNameBST, addressBST);
+}
+
+void listDataMenu()
+{
+    void list(HashTable &table);
+    list(table);
+}
+
+void writeToFileMenu()
+{
+    
+    void writeDataToFile(HashTable &table, BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
+    writeDataToFile(table, stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
+    
+}
+
+void displayStats()
+{
+    
+    void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
+    Statistics_main(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
+    
+}
+
+int main()
+{
+    ifstream fin;
+    ofstream fout;
+    HashTable table;
+
+    void readInputFileHashTableMain(HashTable &table);
+    readInputFileHashTableMain(table);                    //open input.txt and initialize the table at the start of the program saves HashTable output
+
+    BST<string> stationNameBST;
+    BST<string> addressBST;
+    BST<double> gasPriceRegularBST;
+    BST<double> gasPricePremiumBST;
+    BST<double> gasPriceMidGradeBST;
+
+    void readInputFileBSTMain(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
+    readInputFileBSTMain(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
+
+    
+    int choice = mainMenu();
+    if(choice == 1){
+        system("CLS");
+        inputDataMenu();
+    }
+    else if(choice == 2){
+        system("CLS");
+        deleteDataMenu();
+    }
+    else if(choice == 3){
+        searchMenu();
+    }
+    else if(choice == 4){
+        listDataMenu();
+    }
+    else if(choice == 5){
+        writeToFileMenu();
+    }
+    else if(choice == 6){
+        displayStats();
+    }
+    else{
+        exit(-1);
+    }
+}
+
+
 
