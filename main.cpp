@@ -39,15 +39,6 @@ int main()
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    //ADD HASH EXAMPLE
-    table.addItem("Vinh", "Lay 1991 Avenue", 0.99, 2.99, 1.50);
-    table.addItem("Vinh", "Farway 201 Land", 0.99, 2.99, 1.50);
-    table.addItem("Bob", "Way 1991 Avenue", 0.99, 2.99, 1.50);
-    table.addItem("Great", "1991 Avenue", 0.99, 2.99, 1.50);
-
-    //ADD BST EXAMPLE
-    gasPriceMidGradeBST.insert(3.99);
-
     //For ADD FUNCTION Whenever adding to bst or Hash u must ADD to both the BST and HASH and save to both BST and Hash.
     //Example adding a new station name to table. You must also update the BST. So add the new station name to stationNameBST also.
     //Then save
@@ -69,6 +60,10 @@ int main()
     //FUNCTIONS BELOW DO NOT NEED MENU OPTION IMPLEMENTED, ITS ALREADY INCLUDED
     //JUST CALL THESE FUNCTIONS
 
+    //ADD FUNCTION WITH MENU OPTION INCLUDED add.cpp
+    void add(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST, HashTable &table);
+    add(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST, table);
+
     //SEARCH FUNCTION WITH MENU OPTION INCLUDED search.cpp
     void search(BST<string> &stationNameBST, BST<string> &addressBST);
     search(stationNameBST, addressBST);
@@ -84,8 +79,6 @@ int main()
     //WRITE DATA TO FILE WITH MENU OPTION INCLUDED
     void writeDataToFile(HashTable &table, BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
     writeDataToFile(table, stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST);
-
-
 
     return 0;
 }

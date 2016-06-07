@@ -85,8 +85,8 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
 
                 if((stationNameBST.search(key2)))
                 {
-                    cout << "key: " << key2 << " ,FOUND in sorted BST" << endl << endl;
-                    cout << "Printing sorted data in order: \n\n";
+                    //cout << "key: " << key2 << " ,FOUND in sorted BST" << endl << endl;
+                    cout << "\n\nPrinting sorted data in order: \n\n";
 
                     stationNameBST.inOrderPrint();
                 }

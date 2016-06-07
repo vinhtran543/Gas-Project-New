@@ -82,15 +82,7 @@ Gas Station Address: 19990 Stevens Creek Blvd S Blaney Ave
 Regular Gas Price: 2.71
 Premium Gas Price: 2.91
 MidGrade Gas Price: 2.81
-Number values at this Index: 2
-
-Index 6:
-Gas Station: Great
-Gas Station Address: 1991 Avenue
-Regular Gas Price: 0.99
-Premium Gas Price: 2.99
-MidGrade Gas Price: 1.5
-Number values at this Index: 2
+Number values at this Index: 1
 
 Index <#>:7
 
@@ -161,12 +153,12 @@ Number values at this Index: 0
 Index <#>:12
 
 Index 12:
-Gas Station: Vinh
-Gas Station Address: Farway 201 Land
-Regular Gas Price: 0.99
-Premium Gas Price: 2.99
-MidGrade Gas Price: 1.5
-Number values at this Index: 1
+Gas Station: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
 
 Index <#>:13
 
@@ -369,12 +361,12 @@ Number values at this Index: 0
 Index <#>:32
 
 Index 32:
-Gas Station: Vinh
-Gas Station Address: Lay 1991 Avenue
-Regular Gas Price: 0.99
-Premium Gas Price: 2.99
-MidGrade Gas Price: 1.5
-Number values at this Index: 1
+Gas Station: 
+Gas Station Address: 
+Regular Gas Price: 0
+Premium Gas Price: 0
+MidGrade Gas Price: 0
+Number values at this Index: 0
 
 Index <#>:33
 
@@ -492,7 +484,7 @@ Gas Station Address: 3695 Pearl Ave Edenbury Ln
 Regular Gas Price: 2.55
 Premium Gas Price: 2.85
 MidGrade Gas Price: 2.71
-Number values at this Index: 3
+Number values at this Index: 2
 
 Index 43:
 Gas Station: Calco
@@ -500,15 +492,7 @@ Gas Station Address: 6095 Cahalan Ave Santa Teresa Blvd
 Regular Gas Price: 2.63
 Premium Gas Price: 2.95
 MidGrade Gas Price: 2.81
-Number values at this Index: 3
-
-Index 43:
-Gas Station: Bob
-Gas Station Address: Way 1991 Avenue
-Regular Gas Price: 0.99
-Premium Gas Price: 2.99
-MidGrade Gas Price: 1.5
-Number values at this Index: 3
+Number values at this Index: 2
 
 Index <#>:44
 
