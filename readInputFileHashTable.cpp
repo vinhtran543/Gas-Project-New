@@ -1,7 +1,7 @@
 /**
 Gaseek
 * Team 7
-Min
+Min, Vinh
 * CIS 22C
 
 * main.cpp

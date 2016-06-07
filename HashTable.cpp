@@ -164,7 +164,8 @@ void HashTable::removeItem(string key)
 	{
 		Table[index] = new Node;
 
-		cout << key << " was removed from the Hash Table\n";
+		cout << endl << key << " was removed from the Hash Table\n";
+		cout << "\n\nSuccessfully removed data!!!\n";
 	}
 	else if (Table[index]->address == key)    //case 3 key is in the first itme in the bucket, multiple items in bucket
 	{
@@ -172,7 +173,8 @@ void HashTable::removeItem(string key)
 		Table[index] = Table[index]->next;
 		delete temp;
 
-		cout << key << " was removed from the Hash Table\n";
+		cout << endl << key << " was removed from the Hash Table\n\n";
+		cout << "\n\nSuccessfully removed data!!!\n";
 
 	}
 	else        //not the first one at index, but is located in the bucket

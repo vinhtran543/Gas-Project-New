@@ -64,6 +64,10 @@ int main()
     void add(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST, HashTable &table);
     add(stationNameBST, addressBST, gasPriceRegularBST, gasPricePremiumBST, gasPriceMidGradeBST, table);
 
+    //REMOVE FUNCTION WITH MENU INCLUDED remove.cpp
+    void remove(BST<string> &addressBST, HashTable &table);
+    remove(addressBST, table);
+
     //SEARCH FUNCTION WITH MENU OPTION INCLUDED search.cpp
     void search(BST<string> &stationNameBST, BST<string> &addressBST);
     search(stationNameBST, addressBST);
