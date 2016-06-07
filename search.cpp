@@ -49,7 +49,7 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
             {
                 //SEARCH GASPRICE EXAMPLE with PRIMARY KEY(address) and SECONDARY KEY(stationName) uses BST
 
-                cout << "********** SEARCH PRIMARY SORTED: GAS STATION ADDRESS ***********\n\n";
+                cout << "\n\n\n********** SEARCH PRIMARY SORTED: GAS STATION ADDRESS ***********\n\n";
                 cout << "Enter address to search through the primary sorted BST data\n";
                 cout << "\nIf not found, prints nothing above the line:\n\n";
                 string key;
@@ -75,7 +75,7 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
 
             case 2:
             {
-                cout << "********** SEARCH SECONDARY SORTED: GAS STATION NAME ***********\n\n";
+                cout << "\n\n\n********** SEARCH SECONDARY SORTED: GAS STATION NAME ***********\n\n";
                 string key2;
                 cout << "Enter station Name key to search through the secondary sorted BST data\n\n";
 
