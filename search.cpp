@@ -1,7 +1,8 @@
 /**
 Gaseek
 * Team 7
-Vinh Tran
+Search: Vinh Tran
+Menus: Yu Wei Tseng
 
 * CIS 22C
 
@@ -52,7 +53,7 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
                 cout << "Enter address to search through the primary sorted BST data\n";
                 cout << "\nIf not found, prints nothing above the line:\n\n";
                 string key;
-                cout << "Enter key: ";
+                cout << "Enter station address: ";
                 getline(cin, key);
                 //cin.ignore(100, '\n');
 
@@ -64,7 +65,7 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
                else
                     cout << "key: " << key << " ,NOT FOUND IN sorted BST" << endl << endl;
 
-                cout << "******************************************************************\n\n";
+                cout << "******************************************************************\n\n\n";
 
                 //cout << "Press 1 to search again, Press 2 to go back to Search Menu\n";
                 //cout << "Enter: ";
@@ -76,9 +77,9 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
             {
                 cout << "********** SEARCH SECONDARY SORTED: GAS STATION NAME ***********\n\n";
                 string key2;
-                cout << "Enter station Name key to search through the secondary sorted BST data\n";
+                cout << "Enter station Name key to search through the secondary sorted BST data\n\n";
 
-                cout << "Enter key: ";
+                cout << "Enter station name: ";
                 getline(cin, key2);
 
 
@@ -94,7 +95,7 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
                     cout << "key: " << key2 << " ,NOT FOUND IN sorted BST" << endl << endl;
                }
                 cout << endl;
-                cout << "******************************************************************\n\n";
+                cout << "******************************************************************\n\n\n";
             }
             break;
 

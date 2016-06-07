@@ -43,10 +43,10 @@ void writeDataToFile(HashTable &table, BST<string> &stationNameBST, BST<string> 
     cout << endl << endl;
     cout << "***********  SAVING TO OUTPUT FILE END *****************\n\n";
 
-    cout << "Press 1 to return to Main Menu\n";
+    cout << "Press 1 and Enter to return to Main Menu\n";
     cout << "Enter: ";
-    int selection;
-    cin >> selection;
+    string selection;
+    getline(cin, selection);
     system("CLS");//clear screeen
     return;
 }

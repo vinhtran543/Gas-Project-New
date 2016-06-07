@@ -1,7 +1,8 @@
 /**
 Gaseek
 * Team 7
-Vinh Tran
+List Sort: Vinh Tran,
+Menus: Yu Wei Tseng
 
 * CIS 22C
 
@@ -27,7 +28,7 @@ void list(HashTable &table)
     {
         cout << "\n\n\n****** Please select an option 1 through 4 *****\n\n\n";
         cout << "|-----------------------------------------------|\n";  //Display Menu
-        cout << "|            Search MENU                        |\n";
+        cout << "|            List Data MENU                     |\n";
         cout << "|                                               |\n";
         cout << "| 1. List Unsorted Data                         |\n";
         cout << "|                                               |\n";
@@ -59,15 +60,16 @@ void list(HashTable &table)
 
             case 2:
             {
-                cout << "********** List Primary Sorted Data ***********\n\n";
+                cout << "********** List Primary Sorted Data *************\n\n";
                 string key;
-                cout << "Enter station address key to search through the primary sorted Hash data\n";
+                cout << "Enter station address key to search\n";
+                cout << "through the primary sorted Hash data\n\n";
 
-                cout << "Enter key: ";
+                cout << "Enter station address: ";
                 getline(cin, key);
                 table.listGas(key);
 
-                cout << "********* List Primary Sorted End ***************\n\n";
+                cout << "********** List Primary Sorted End **************\n\n\n";
             }
             break;
 
@@ -75,13 +77,14 @@ void list(HashTable &table)
             {
                 cout << "********** List Secondary Sorted Data ***********\n\n";
                 string key2;
-                cout << "Enter station address key to search through the primary sorted Hash data\n";
+                cout << "Enter station name key to search\n";
+                cout << "through the secondary sorted Hash data\n\n";
 
-                cout << "Enter key: ";
+                cout << "Enter station name: ";
                 getline(cin, key2);
                 table.listGas(key2);
 
-                cout << "********** List Secondary Sorted End ***********\n\n";
+                cout << "********** List Secondary Sorted End ***********\n\n\n";
             }
             break;
 

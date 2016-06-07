@@ -47,11 +47,12 @@ void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<d
     cout << gasPriceMidGradeBST.maximum() << endl << endl << endl;
     cout << "**************************Statistics**************************" << endl;
 
-    int selection;
+    string selection;
 
-    cout << "Press 1 to return to Main Menu\n";
+    cout << "Press 1 and Enter to return to Main Menu\n";
     cout << "Enter: ";
-    cin >> selection;
+    //cin >> selection;
+    getline(cin, selection);
     system("CLS");//clear screeen
     return;   //return to Menu before
 

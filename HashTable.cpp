@@ -276,7 +276,7 @@ int HashTable::listGas(string key)
 	int index = hash(key);
     bool found = false;
     cout << "\n\n\nList sorted by key: " << key << endl << endl;
-    cout << "**************** LIST Sorted by Key***********" << endl << endl << endl;
+    cout << "**************** LIST Sorted by Key **********" << endl << endl << endl;
 	//Nodeptr p = Table[index];
 	Nodeptr p = Table[0];
     for (int i = 0; i < TABLE_SIZE; i++)
