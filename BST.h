@@ -261,7 +261,7 @@ void BST<bstdata>::inOrderPrint(Nodeptr root)   //helper function
 	if (root != NULL)
 	{
 		inOrderPrint(root->left);
-		cout << root->data << ", ";
+		cout << root->data << "\n";
 		inOrderPrint(root->right);
 	}
 }

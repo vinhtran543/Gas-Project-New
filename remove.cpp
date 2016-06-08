@@ -48,6 +48,11 @@ void remove(BST<string> &addressBST, HashTable &table)
             case 1:
             {
                 cout <<"\n\n\n*************************Remove GAS DATA ***********************************\n\n\n";
+
+                cout << "Here are all the gas station addresses to choose from:\n\n";
+                addressBST.inOrderPrint();
+
+                cout << endl << endl;
                 cout << "Enter the Station Address that you would like to remove." << endl << endl;
                 cout << "Enter station address: ";
                 string address;
