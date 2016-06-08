@@ -99,7 +99,7 @@ int HashTable::numItemsAtIndex(int index)   //helper function for printTable()
 void HashTable::printTable()
 {
 	Nodeptr p;
-	cout << "Book Hash Table:\n\n";
+	cout << "Gas Station Hash Table:\n\n";
 
 	for (int i = 0; i < TABLE_SIZE; i++)
 	{
