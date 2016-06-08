@@ -18,7 +18,7 @@ Menus: Yu Wei Tseng
 #include <cstdlib>
 using namespace std;
 
-void list(HashTable &table)
+void list(BST<string> &stationNameBST, BST<string> &addressBST, HashTable &table)
 {
 
     int selection;
@@ -61,6 +61,10 @@ void list(HashTable &table)
             case 2:
             {
                 cout << "********** List Primary Sorted Data *************\n\n";
+
+                cout << "Here are all the gas station addresses to choose from:\n\n";
+                addressBST.inOrderPrint();
+
                 string key;
                 cout << "Enter station address key to search\n";
                 cout << "through the primary sorted Hash data\n\n";
@@ -76,6 +80,9 @@ void list(HashTable &table)
             case 3:
             {
                 cout << "********** List Secondary Sorted Data ***********\n\n";
+
+                cout << "Here are all the gas station addresses to choose from:\n\n";
+                stationNameBST.inOrderPrint();
                 string key2;
                 cout << "Enter station name key to search\n";
                 cout << "through the secondary sorted Hash data\n\n";

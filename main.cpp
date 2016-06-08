@@ -73,8 +73,8 @@ int main()
     search(stationNameBST, addressBST);
 
     //LIST FUNCTION WITH MENU OPTION INCLUDED uses functions from Hash.cpp
-    void list(HashTable &table);
-    list(table);
+    void list(BST<string> &stationNameBST, BST<string> &addressBST, HashTable &table);
+    list(stationNameBST, addressBST,table);
 
     //EXAMPLE STATISTICS FUNCTION Statistics.cpp from BST
     void Statistics_main(BST<string> &stationNameBST, BST<string> &addressBST, BST<double> &gasPriceRegularBST, BST<double> &gasPricePremiumBST, BST<double> &gasPriceMidGradeBST);
