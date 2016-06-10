@@ -1,7 +1,8 @@
 /**
 Gaseek
 * Team 7
-Dat Pham
+
+* Statistics: Dat Pham
 
 * CIS 22C
 

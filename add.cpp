@@ -1,10 +1,10 @@
 /**
 Gasseek
+* Team 7
 
 * add: Jimmy Le
-Menus: Yu Wei Tseng
 
-* Team 7
+* Menus: Yu Wei Tseng
 
 * CIS 22C
 

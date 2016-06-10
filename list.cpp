@@ -1,8 +1,10 @@
 /**
 Gaseek
 * Team 7
-List Sort: Vinh Tran,
-Menus: Yu Wei Tseng
+
+* List Sort: Vinh Tran
+
+* Menus: Yu Wei Tseng
 
 * CIS 22C
 

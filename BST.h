@@ -1,6 +1,8 @@
 /**
 Gaseek
-*Dat Pham
+*Team 7
+
+* Dat Pham
 
 * CIS 22C
 
@@ -57,17 +59,6 @@ private:
 
 	void SaveinOrderPrint(Nodeptr root, ofstream &fout);
 
-	void preOrderPrint(Nodeptr root, ofstream &fout);
-
-	//private helper function for preOrderPrint
-
-	//recursively prints tree values in preorder
-
-	void postOrderPrint(Nodeptr root, ofstream &fout);
-
-	//private helper function for postOrderPrint
-
-	//recursively prints tree values according in postorder
 
 	bool containsValue(Nodeptr root, bstdata value);   //helper function for the search()
 
@@ -118,20 +109,6 @@ public:
 	//stored in the BST
 
 	void SaveinOrderPrint(ofstream &fout);    //saves BST in order to ouput file
-
-
-	void preOrderPrint(ofstream &fout);
-
-	//calls the reOrderPrint function to print out the values
-
-	//stored in the BST
-
-
-	void postOrderPrint(ofstream &fout);
-
-	//calls the postOrderPrint function to print out the values
-
-	//stored in the BST
 
 	bool search(bstdata value);  //searches for a value in the BST
 
@@ -283,42 +260,6 @@ void BST<bstdata>::SaveinOrderPrint(Nodeptr root, ofstream &fout)
 		SaveinOrderPrint(root->right, fout);
 	}
 
-}
-
-template <class bstdata>
-void BST<bstdata>::preOrderPrint(ofstream &fout)
-{
-	preOrderPrint(root, fout);
-}
-
-template <class bstdata>                         //helper function
-void BST<bstdata>::preOrderPrint(Nodeptr root, ofstream &fout)
-{
-	if (root != NULL)
-	{
-		cout << root->data << " ";
-		fout << root->data << " ";
-		preOrderPrint(root->left, fout);
-		preOrderPrint(root->right, fout);
-	}
-}
-
-template <class bstdata>
-void BST<bstdata>::postOrderPrint(ofstream &fout)
-{
-	postOrderPrint(root, fout);
-}
-
-template <class bstdata>
-void BST<bstdata>::postOrderPrint(Nodeptr root, ofstream &fout)   //helper function
-{
-	if (root != NULL)
-	{
-		postOrderPrint(root->left, fout);
-		postOrderPrint(root->right, fout);
-		cout << root->data << " ";
-		fout << root->data << " ";
-	}
 }
 
 template <class bstdata>

@@ -1,9 +1,10 @@
 /**
 Gasseek
-
-* remove: Min
-Menus: Yu Wei Tseng
 * Team 7
+
+* remove: Min Joung
+
+* Menus: Yu Wei Tseng
 
 * CIS 22C
 

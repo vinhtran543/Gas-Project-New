@@ -1,7 +1,8 @@
 /**
 Gaseek
 * Team 7
-Min and Vinh Tran
+
+* Write Data to file: Vinh Tran, Min Joung
 
 * CIS 22C
 

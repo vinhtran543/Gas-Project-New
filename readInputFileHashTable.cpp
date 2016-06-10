@@ -1,7 +1,9 @@
 /**
 Gaseek
 * Team 7
-Min, Vinh
+
+* read input into Hash: Vinh Tran
+
 * CIS 22C
 
 * main.cpp

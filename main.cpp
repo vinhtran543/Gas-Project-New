@@ -1,11 +1,13 @@
 /**
-Gaseek
-* Team 7
-Main Menu: Yu-Wei Tseng
+Project Title: Gaseek
+
+* Team 7 : Vinh Tran, Yu-Wei Tseng, Dat Pham, Min Joung, Jimmy Le
+
+* Main Menu: Yu-Wei Tseng
 
 * CIS 22C
 
-* ProjectTest.cpp
+* main.cpp
 
 */
 

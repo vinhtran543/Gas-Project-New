@@ -1,7 +1,8 @@
 /**
 Gaseek
 * Team 7
-Min, Vinh Tran, Dat Pham
+
+* read input into BST: Vinh Tran
 
 * CIS 22C
 
