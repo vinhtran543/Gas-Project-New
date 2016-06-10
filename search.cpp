@@ -57,21 +57,16 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
                 addressBST.inOrderPrint();
 
                 cout << "Enter address to search through the primary sorted BST data\n";
-                cout << "\nIf not found, prints nothing above the line:\n\n";
+                cout << "\nIf not found, prints no element above the line:\n\n";
                 string key;
                 cout << "Enter station address: ";
                 getline(cin, key);
                 //cin.ignore(100, '\n');
 
-                if((addressBST.search(key)))
-                {
-                     cout << "\n__________________________________\n";
-                    cout << endl << endl;
-                }
-               else
-                    cout << "key: " << key << " ,NOT FOUND IN sorted BST" << endl << endl;
+                addressBST.searchAddress(key);
+                cout << endl;
 
-                cout << "******************************************************************\n\n\n";
+                cout << "*************** SEARCH PRIMARY SORTED: GAS STATION ADDRESS ************\n\n\n";
 
                 //cout << "Press 1 to search again, Press 2 to go back to Search Menu\n";
                 //cout << "Enter: ";
@@ -93,19 +88,10 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
                 getline(cin, key2);
 
 
-                if((stationNameBST.search(key2)))
-                {
-                    //cout << "key: " << key2 << " ,FOUND in sorted BST" << endl << endl;
-                    cout << "\n\nPrinting sorted data in order: \n\n";
-
-                    stationNameBST.inOrderPrint();
-                }
-               else
-               {
-                    cout << "key: " << key2 << " ,NOT FOUND IN sorted BST" << endl << endl;
-               }
+                stationNameBST.searchStation(key2, stationNameBST);
                 cout << endl;
-                cout << "******************************************************************\n\n\n";
+
+                cout << "************** SEARCH SECONDARY SORTED: GAS STATION NAME **********\n\n\n";
             }
             break;
 

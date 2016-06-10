@@ -43,6 +43,8 @@ private:
 	Nodeptr root;
 
 
+
+
 	/**Private helper functions*/
 
 	void insert_value(Nodeptr root, bstdata value);
@@ -60,7 +62,9 @@ private:
 	void SaveinOrderPrint(Nodeptr root, ofstream &fout);
 
 
-	bool containsValue(Nodeptr root, bstdata value);   //helper function for the search()
+	void containsValueAddress(Nodeptr root, bstdata value);   //helper function for the search()
+
+	void containsValueStation(Nodeptr root, bstdata value, BST stationNameBST);  //helper function for search()
 
 	bstdata findMin(Nodeptr root);   //helper function for minimum()
 
@@ -110,7 +114,9 @@ public:
 
 	void SaveinOrderPrint(ofstream &fout);    //saves BST in order to ouput file
 
-	bool search(bstdata value);  //searches for a value in the BST
+	void searchAddress(bstdata value);  //searches for a value in the BST
+
+	void searchStation(bstdata value, BST stationNameBST);  //searches for a value in the BST
 
 	bstdata minimum(); //finds the minimum value in the BST
 
@@ -263,32 +269,44 @@ void BST<bstdata>::SaveinOrderPrint(Nodeptr root, ofstream &fout)
 }
 
 template <class bstdata>
-bool BST<bstdata>::containsValue(Nodeptr root, bstdata value)
+void BST<bstdata>::containsValueAddress(Nodeptr root, bstdata value)
 {
 	if (value == root->data)
     {
         cout << "\nFOUND: ";
         cout << root->data;
-        return true;
+        return;
+        //return true;
     }
 	else if (value < root->data)
 	{
 		if (root->left == NULL)
-			return false;
-
+        {
+            cout << "NOT FOUND IN sorted BST" << endl << endl;
+            return;
+            //return false;
+        }
 		if (root->left != NULL)
-			containsValue(root->left, value);
+			containsValueAddress(root->left, value);
 	}
 	else if (root->right == NULL)
-		return false;
+    {
+        cout << "\nNOT FOUND IN sorted BST" << endl << endl;
+        return;
+        //return false;
+    }
 	else if (root->right != NULL)
-		containsValue(root->right, value);
+		containsValueAddress(root->right, value);
 	else
-		return false;
+    {
+        cout << "\nNOT FOUND IN sorted BST" << endl << endl;
+        return;
+        //return false;
+    }
 }
 
 template <class bstdata>
-bool BST<bstdata>::search(bstdata value)
+void BST<bstdata>::searchAddress(bstdata value)
 {
 
 	//check for any preconditions
@@ -297,10 +315,67 @@ bool BST<bstdata>::search(bstdata value)
     {
         cout << "\nFOUND: ";
         cout << root->data << endl;
-        return true;
+        return;
+        //return true;
     }
 	else
-		return containsValue(root, value);
+		return containsValueAddress(root, value);
+}
+
+template <class bstdata>
+void BST<bstdata>::containsValueStation(Nodeptr root, bstdata value, BST stationNameBST)
+{
+    if (value == root->data)
+    {
+        cout << "\nFOUND: ";
+        cout << root->data << endl << endl;
+        cout << "Printing BST Elements: \n";
+        stationNameBST.inOrderPrint();
+        return;
+        //return true;
+    }
+	else if (value < root->data)
+	{
+		if (root->left == NULL)
+        {
+            cout << "\nNOT FOUND IN sorted BST" << endl << endl;
+            return;
+            //return false;
+        }
+		if (root->left != NULL)
+			containsValueStation(root->left, value, stationNameBST);
+	}
+	else if (root->right == NULL)
+    {
+        cout << "\nNOT FOUND IN sorted BST" << endl << endl;
+        return;
+        //return false;
+    }
+	else if (root->right != NULL)
+		containsValueStation(root->right, value, stationNameBST);
+	else
+    {
+        cout << "\nNOT FOUND IN sorted BST" << endl << endl;
+        return;
+        //return false;
+    }
+
+}
+
+template <class bstdata>
+void BST<bstdata>::searchStation(bstdata value, BST stationNameBST)
+{
+   if (value == root->data)
+    {
+        cout << "\nFOUND: ";
+        cout << root->data << endl << endl;
+        cout << "Printing BST Elements: \n";
+        stationNameBST.inOrderPrint();
+        return;
+        //return true;
+    }
+	else
+		return containsValueStation(root, value, stationNameBST);
 }
 
 template <class bstdata>
