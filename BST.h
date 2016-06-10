@@ -274,7 +274,7 @@ void BST<bstdata>::containsValueAddress(Nodeptr root, bstdata value)
 	if (value == root->data)
     {
         cout << "\nFOUND: ";
-        cout << root->data;
+        cout << root->data << endl;
         return;
         //return true;
     }

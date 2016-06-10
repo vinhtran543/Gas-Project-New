@@ -57,7 +57,6 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
                 addressBST.inOrderPrint();
 
                 cout << "Enter address to search through the primary sorted BST data\n";
-                cout << "\nIf not found, prints no element above the line:\n\n";
                 string key;
                 cout << "Enter station address: ";
                 getline(cin, key);
