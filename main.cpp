@@ -90,8 +90,8 @@ int main()
         case 3:
             {
                 system("CLS");
-                void search(BST<string> &stationNameBST, BST<string> &addressBST);
-                search(stationNameBST, addressBST);
+                void search(BST<string> &stationNameBST, BST<string> &addressBST, HashTable &table);
+                search(stationNameBST, addressBST, table);
 
             }
         break;

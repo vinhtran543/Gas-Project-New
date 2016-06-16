@@ -165,7 +165,7 @@ void HashTable::removeItem(string key)
 	{
 		Table[index] = new Node;
 
-		cout << endl << key << " was removed from the Hash Table\n";
+		cout << endl << key << " was removed from the Hash Table and BST\n";
 		cout << "\n\nSuccessfully removed data!!!\n";
 	}
 	else if (Table[index]->address == key)    //case 3 key is in the first itme in the bucket, multiple items in bucket
@@ -371,4 +371,37 @@ void HashTable::saveToOutputFile(ofstream &fout)
     cout << "\n\nSaved data to " << saveName << " sucessful!!!\n\n";
     fin.close();    //close read file
 	fout.close();   //close write file
+}
+
+int HashTable::searchGas(string key)   //display gas prices for search function
+{
+	int index = hash(key);
+    bool found = false;
+	//Nodeptr p = Table[index];
+	Nodeptr p = Table[0];
+    for (int i = 0; i < TABLE_SIZE; i++)
+    {
+            p = Table[i];
+        while (p != NULL)
+        {
+            if (p->stationName == key || p->address == key)		 //if title was found at the index, return Gas Price and index where it was found
+            {
+                cout << "Gas Station Name: " << p->stationName << endl;
+                cout << "Address: " << p->address << endl;
+                cout << "Regular Gas Price:" << p->gasPriceRegular << endl;
+                cout << "Premium Gas Price:" << p->gasPricePremium << endl;
+                cout << "MidGrade Gas Price:" << p->gasPriceMidGrade << endl << endl << endl;
+                p = p->next;
+                found = true;
+            }
+            else
+                p = p->next;
+        }
+    }
+    if(found == true)
+    {
+        return 1;
+    }
+	cout << "Sorry, but " << key << " was not found in the Hash Table.\n\n\n";
+	return -1;
 }

@@ -12,6 +12,7 @@ Gaseek
 
 */
 
+#include "HashTable.h"
 #include "BST.h"
 #include <iostream>
 #include <fstream>
@@ -20,7 +21,7 @@ Gaseek
 #include <cstdlib>
 using namespace std;
 
-void search(BST<string> &stationNameBST, BST<string> &addressBST)
+void search(BST<string> &stationNameBST, BST<string> &addressBST, HashTable &table)
 {
 
     int selection;
@@ -64,6 +65,9 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
 
                 addressBST.searchAddress(key);
                 cout << endl;
+                table.searchGas(key);   //display gas prices
+
+                cout << endl;
 
                 cout << "*************** SEARCH PRIMARY SORTED: GAS STATION ADDRESS ************\n\n\n";
 
@@ -88,6 +92,8 @@ void search(BST<string> &stationNameBST, BST<string> &addressBST)
 
 
                 stationNameBST.searchStation(key2, stationNameBST);
+                cout << endl;
+                table.searchGas(key2);   //display gas prices
                 cout << endl;
 
                 cout << "************** SEARCH SECONDARY SORTED: GAS STATION NAME **********\n\n\n";

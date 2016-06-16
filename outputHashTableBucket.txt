@@ -29,20 +29,12 @@ Number values at this Index: 0
 Index <#>:2
 
 Index 2:
-Gas Station: Costco
-Gas Station Address: 7251 Camino Arroyo Gilman Rd
-Regular Gas Price: 2.53
-Premium Gas Price: 2.85
-MidGrade Gas Price: 2.68
-Number values at this Index: 2
-
-Index 2:
 Gas Station: Quik Stop
 Gas Station Address: 2704 S Bascom Ave Curtner Ave
 Regular Gas Price: 2.59
 Premium Gas Price: 2.85
 MidGrade Gas Price: 2.71
-Number values at this Index: 2
+Number values at this Index: 1
 
 Index <#>:3
 
@@ -268,7 +260,15 @@ Gas Station Address: 18605 Monterey St Cochrane Rd
 Regular Gas Price: 2.55
 Premium Gas Price: 2.85
 MidGrade Gas Price: 2.75
-Number values at this Index: 1
+Number values at this Index: 2
+
+Index 23:
+Gas Station: Vinhs Gas Station
+Gas Station Address: 2991 Cropley Avenue
+Regular Gas Price: 1.99
+Premium Gas Price: 3.99
+MidGrade Gas Price: 2.99
+Number values at this Index: 2
 
 Index <#>:24
 

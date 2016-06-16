@@ -58,6 +58,8 @@ public:
 
 	void saveToOutputFile(ofstream &fout);  //allows user to save to file name they can name
 
+	int searchGas(string key);   //search function that displays gas prices for search.cpp
+
 
 
 private:
